@@ -1,0 +1,15 @@
+{
+  "name": "Codespaces with no AI",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "github.copilot.inlineSuggest.enable": false,
+        "github.copilot.editor.enableAutoCompletions": false,
+        "github.copilot.enable": {
+          "*": false
+        },
+        "chat.disableAIFeatures": true
+      }
+    }
+  }
+}
